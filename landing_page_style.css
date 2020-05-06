@@ -1,0 +1,146 @@
+﻿.body {
+    background-image: url(laptop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+#title{
+    font-size: 100px;
+    font-family: 'Times New Roman';
+    margin: auto;
+    height: 10%;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    opacity: .5;
+    
+}
+.navbar{
+    margin: 5px, 0, 0, 0;
+    position: absolute;
+    overflow: hidden;
+    max-height: 100px;
+}
+#hamburg{
+    display: none;
+}
+.nav-content{
+    display: block;
+    overflow: hidden;
+    max-height: 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 50px;
+    padding: 0;
+    height: 35px;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 2px 2px;
+        text-decoration: none;
+        margin: 0px 10px 0px 10px; 
+    }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: #111;
+        }
+
+.nav{
+    background-color: rgba(128, 128, 128, .5);
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+}
+.line{
+    width: 35px;
+    height: 3px;
+    margin: 3px 0px 5px 5px;
+    background-color: white;
+}
+#top-line{
+    margin-top:6px;
+}
+#res{
+    font-size: 30px;
+    font-family: 'Brush Script MT'  ;
+    float: right;
+    padding: 0;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2px 2px;
+    text-decoration: none;
+    margin: 0px 50px 0px 10px;
+}
+.gray{
+    background-color: rgba(128, 128, 128, .5);
+    height: 60%;
+    width: 60%;
+    margin: auto;
+}
+.contact{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.con-info{
+    margin-top: 50px;
+    padding: 20px 0 20px 0;
+}
+.about{
+    color: white;
+    margin: 30px 30px 30px 30px;
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+}
+.pro-box {
+    height: 175px;
+    width: 300px;
+    margin: auto;
+    margin: 25px 25px 25px 100px;
+    background-color: black;
+}
+.row{
+  
+}
+#calc {
+    background-image: url(web_calc.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#tictac {
+    background-image: url(tic_tac.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.comment {
+    background-color: rgba(128, 128, 128, .5);
+    height: 175px;
+    width: 500px;
+    float: right;
+    margin-right: 100px;
+}
+.com-text{
+    margin: 0;
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+}

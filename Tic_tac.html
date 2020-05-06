@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="TTT.js" language="javascript" type="text/javascript"></script>
+    <link href="TTTstyleSheet.css" rel="stylesheet" />
+    <script src="script.js" type="text/javascript" language="javascript"></script>
+    <link href="landing_page_style.css" rel="stylesheet" />
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div class="nav">
+        <a class="navbar" href="#" onclick="expand()">
+            <div class="line" id="top-line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </a>
+        <p id="res">Interactive Resume</p>
+        <div id="hamburg">
+            <div class="nav-content">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <h3 id="text">Click any empty block to start the game, or click here to go second.<button id="gosec" onclick="goSecond()">      Go Second!</button></h3>
+
+    <table id="table" cellspacing="0">
+        <tr>
+            <td id="top-left" class="box top" onclick="topleft()"></td>
+            <td id="top-mid" class="box top" onclick="topmid()"></td>
+            <td id="top-right" class="box top" onclick="topright()"></td>
+        </tr>
+        <tr>
+            <td id="mid-left" class="box mid" onclick="midleft()"></td>
+            <td id="mid-mid" class="box mid" onclick="midmid()"></td>
+            <td id="mid-right" class="box mid" onclick="midright()"></td>
+        </tr>
+        <tr>
+            <td id="bot-left" class="box bot" onclick="botleft()"></td>
+            <td id="bot-mid" class="box bot" onclick="botmid()"></td>
+            <td id="bot-right" class="box bot" onclick="botright()"></td>
+        </tr>
+    </table>
+    <div id="win">
+        <h1 id="winner"></h1>
+        <button onclick="reset()">Reset Game</button>
+    </div>
+</body>
+</html>
